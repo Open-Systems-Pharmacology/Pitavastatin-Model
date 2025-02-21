@@ -13,4 +13,4 @@ The presented model includes the following features:
 - transport by OATP1B1/B3,
 - transport by BCRP,
 - no renal clearance,
-- oral absorption with dissolution rate assigned to the Lint80 function..
+- oral absorption with dissolution rate assigned to the Lint80 function.
