@@ -1,6 +1,6 @@
 ### 2.3.1 Absorption
 
-The parameter value for  `Specific intestinal permeability`  was optimized based on clinical oral data, see results of optimization in [Section 2.3.4](#234-automated-parameter-identification). The solubility was obtianed from DrugBank (see [Section 2.2.1](#221-in-vitro-and-physicochemical-data))
+The parameter value for  `Specific intestinal permeability`  was optimized based on clinical oral data, see results of optimization in [Section 2.3.4](#234-automated-parameter-identification). The solubility was obtained from DrugBank (see [Section 2.2.1](#221-in-vitro-and-physicochemical-data))
 
 The dissolution of tablets was implemented via empirical Lint80 dissolution, according to Cho 2023 ([Cho 2024](#5-references)). 
 
