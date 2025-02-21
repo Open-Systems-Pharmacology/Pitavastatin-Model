@@ -9,7 +9,7 @@ The model has then been evaluated by simulating clinical studies with individual
 
 The presented model includes the following features:
 
-- metabolism by unspecified UGT enzym present in the liver,
+- metabolism by unspecified UGT enzyme present in the liver,
 - transport by OATP1B1/B3,
 - transport by BCRP
 - no renal clearance,
