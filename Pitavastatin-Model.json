@@ -2315,7 +2315,7 @@
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "Assumption",
-                "Description": "1/4 of PI actitivity"
+                "Description": "1/4 of PI activity"
               }
             }
           ]
