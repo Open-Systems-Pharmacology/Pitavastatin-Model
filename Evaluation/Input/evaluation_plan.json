@@ -1,113 +1,14 @@
-{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.1/OSP_Qualification_Plan_Schema.json",
+﻿{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
-            "BuildingBlocks": [],
-            "SimulationParameters": []
+            "Id": "Pitavastatin",
+            "Path": "../../Pitavastatin-Model.json",
+            "BuildingBlocks": []
         }
     ],
     "ObservedDataSets": [],
     "Plots": {
-        "AxesSettings": {
-            "GOFMergedPlotsPredictedVsObserved": [
-                {
-                    "Type": "X",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                },
-                {
-                    "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                }
-            ],
-            "GOFMergedPlotsResidualsOverTime": [
-                {
-                    "Type": "X",
-                    "Dimension": "Time",
-                    "Unit": "h",
-                    "GridLines": false,
-                    "Scaling": "Linear"
-                },
-                {
-                    "Type": "Y",
-                    "Dimension": "Dimensionless",
-                    "Unit": "",
-                    "GridLines": false,
-                    "Scaling": "Linear"
-                }
-            ],
-            "ComparisonTimeProfile": [
-                {
-                    "Type": "X",
-                    "Dimension": "Time",
-                    "Unit": "h",
-                    "GridLines": false,
-                    "Scaling": "Linear"
-                },
-                {
-                    "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                }
-            ],
-            "DDIRatioPlotsPredictedVsObserved": [
-                {
-                    "Type": "X",
-                    "Dimension": "Dimensionless",
-                    "Unit": "",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                },
-                {
-                    "Type": "Y",
-                    "Dimension": "Dimensionless",
-                    "Unit": "",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                }
-            ],
-            "DDIRatioPlotsResidualsVsObserved": [
-                {
-                    "Type": "X",
-                    "Dimension": "Dimensionless",
-                    "Unit": "",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                },
-                {
-                    "Type": "Y",
-                    "Dimension": "Dimensionless",
-                    "Unit": "",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                }
-            ],
-            "PKRatioPlots": [
-                {
-                    "Type": "X",
-                    "Dimension": "Age",
-                    "Unit": "year(s)",
-                    "GridLines": false,
-                    "Scaling": "Linear"
-                },
-                {
-                    "Type": "Y",
-                    "Dimension": "Dimensionless",
-                    "Unit": "",
-                    "GridLines": false,
-                    "Scaling": "Log"
-                }
-            ]
-        },
         "PlotSettings": {
             "ChartWidth": 500,
             "ChartHeight": 400,
@@ -119,55 +20,264 @@
                 "WatermarkSize": 40
             }
         },
+        "AxesSettings": {
+            "ComparisonTimeProfile": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "ng/ml",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Unit": "ng/ml",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "ng/ml",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Unit": "year(s)",
+                    "Dimension": "Age",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
-                "SectionReference": "ct-profiles"
+                "Project": "Pitavastatin",
+                "Simulation": "Chen 2013_4mg_po",
+                "SectionId": 331
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
-                "SectionReference": "ct-profiles"
+                "Project": "Pitavastatin",
+                "Simulation": "Kimoto 2022_2mg_i.v.",
+                "SectionId": 331
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Kimoto 2022_2mg_po",
+                "SectionId": 331
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Kimoto 2022_4 mg_po",
+                "SectionId": 331
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Lou 2015_1mg_po",
+                "SectionId": 331
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Mori 2020_0.2mg_po",
+                "SectionId": 331
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Prueksaritanont 2014_1mg_po",
+                "SectionId": 331
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Takehara 2018_0.2mg_po",
+                "SectionId": 331
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_15_15",
+                "SectionId": 332
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_1b_15",
+                "SectionId": 332
+            },
+            {
+                "Project": "Pitavastatin",
+                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_1b_1b",
+                "SectionId": 332
             }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plot for concentration in plasma",
-                "SectionReference": "diagnostics-plots",
+                "Title": "Goodness of fit plot for concentration in plasma.",
+                "SectionId": 32,
                 "Artifacts": [
                     "Plot",
                     "GMFE",
                     "Measure"
                 ],
-                "PlotTypes": [
-                    "predictedVsObserved",
-                    "residualsOverTime"
-                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "Pitavastatin iv (model building)",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
-                                "Color": "#FF0000"
+                                "Project": "Pitavastatin",
+                                "Simulation": "Kimoto 2022_2mg_i.v.",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kimoto et al 2022 - Pitavastatin 2 mg iv infusion - Pitavastatin - IV - 2 mg - Plasma - agg. (n=18)",
+                                "Color": "#000000"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
-                        "Symbol": "Square",
+                        "Caption": "Pitavastatin oral administration (model building)",
+                        "Symbol": "Diamond",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
-                                "Color": "#FF0000"
+                                "Project": "Pitavastatin",
+                                "Simulation": "Chen 2013_4mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chen et al. 2013 - Pitavastatin - Pitavastatin - PO - 4 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Kimoto 2022_2mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kimoto et al 2022 - Pitavastatin 2mg - Pitavastatin - PO - 2 mg - Plasma - agg. (n=18)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Kimoto 2022_4 mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kimoto et al 2022 - Pitavastatin 4mg - Pitavastatin - PO - 4 mg - Plasma - agg. (n=18)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Lou 2015_1mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Lou et al. 2015 - Pitavastatin 1mg - Pitavastatin - PO - 1 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Mori 2020_0.2mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Mori et al 2020 - Pitavastatin - Pitavastatin - PO - 0.2 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Prueksaritanont 2014_1mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Prueksaritanont et al. 2014 - Pitavastatin - Pitavastatin - PO - 1 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Takehara 2018_0.2mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Takehara et al. 2018 - Pitavastatin - Pitavastatin - PO - 0.2 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Pitavastatin oral administration (model verification)",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_15_15",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*15*15 subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=3)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_1b_15",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*1b*15 subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_1b_1b",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*1b*1b subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=11)",
+                                "Color": "#000000"
                             }
                         ]
                     }
@@ -180,76 +290,83 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "Pitavastatin",
+            "Name": "Pitavastatin",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
-            "SectionReference": "final-input-parameters"
+            "SectionId": 31
         }
     ],
     "Sections": [
         {
-            "Reference": "introduction",
+            "Id": 1,
             "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Reference": "methods",
+            "Id": 2,
             "Title": "Methods",
+            "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Reference": "modeling-strategy",
-                    "Title": "Modeling Strategy",
-                    "Content": "Content/Section2.1_Modeling_Strategy.md"
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "Modeling strategy"
                 },
                 {
-                    "Reference": "methods-data",
-                    "Title": "Data",
-                    "Content": "Content/Section2.2_Data.md"
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data.md",
+                    "Title": "Data used"
                 },
                 {
-                    "Reference": "model-parameters-and-assumptions",
-                    "Title": "Model Parameters and Assumptions",
-                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
+                    "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "Model parameters and assumptions"
                 }
             ]
         },
         {
-            "Reference": "results-and-discussion",
-            "Title": "Results and Discussion",
+            "Id": 3,
             "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "Results and Discussion",
             "Sections": [
                 {
-                    "Reference": "final-input-parameters",
-                    "Title": "Final input parameters",
-                    "Content": "Content/Input_table.md"
+                    "Id": 31,
+                    "Content": "Content/Input_table.md",
+                    "Title": "Pitavastatin final input parameters"
                 },
                 {
-                    "Reference": "diagnostics-plots",
-                    "Title": "Diagnostics Plots",
-                    "Content": "Content/GOF_diagnostics.md"
+                    "Id": 32,
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "Pitavastatin Diagnostics Plots"
                 },
                 {
-                    "Reference": "ct-profiles",
+                    "Id": 33,
                     "Title": "Concentration-Time Profiles",
-                    "Content": "Content/Concentration_time_profiles.md"
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Sections": [
+                        {
+                            "Id": 331,
+                            "Title": "Model Building",
+                            "Content": "Content/Concentration_time_profiles_building.md"
+                        },
+                        {
+                            "Id": 332,
+                            "Title": "Model Verification",
+                            "Content": "Content/Concentration_time_profiles_verification.md"
+                        }
+                    ]
                 }
             ]
         },
         {
-            "Reference": "conclusion",
-            "Title": "Conclusion",
-            "Content": "Content/Conclusion.md"
+            "Id": 4,
+            "Content": "Content/Section4_Conclusion.md",
+            "Title": "Conclusion"
         },
         {
-            "Reference": "main-references",
-            "Title": "References",
-            "Content": "Content/References.md"
+            "Id": 5,
+            "Content": "Content/References.md",
+            "Title": "References"
         }
     ],
     "Intro": [
