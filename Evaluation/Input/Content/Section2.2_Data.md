@@ -9,7 +9,7 @@ A literature search was performed to collect available information on physicoche
 | pK<sub>a</sub> (base)   |          | 4.68      | [Yoshikado 2018](#5-references)         | acid dissociation constant of conjugate base                 |
 | Solubility (pH7.4)      | mg/mL    | 0.004     | [DrugBank](#5-references)              | Aqueous Solubility in pH 7.4                 |
 | logP                    |          | 1.92     | [Yoshikado 2018](#5-references)         | Partition coefficient between octanol and water              |
-|                         |          |2.91      | [Kimoto 2022](#5-references)         | Partition coefficient between octanol and water              |
+| logP                    |          |2.91      | [Kimoto 2022](#5-references)         | Partition coefficient between octanol and water              |
 | fu                      | %        | 0.52       | [Yoshikado 2018](#5-references)   | Fraction unbound in plasma                                   |
 | K<sub>m</sub> OATP1B1   | µmol/L   | 0.77     | [Duan 2017](#5-references)            | OATP1B1 Michaelis-Menten constant                             |
 | K<sub>m</sub> BCRP      | µmol/L   | 2.02       | Assumed same as for Rosuvastatin| BCRP Michaelis-Menten                                    |
@@ -27,7 +27,7 @@ The following publications were found in adults for model building:
 | [Kimoto 2022](#5-references)   | Plasma PK profiles in healthy subjects after single iv infusion (1h) of 2 mg pitavastatin and oral administration of 2 and 4 mg pitavastatin|
 | [Mori 2020](#5-references)  | Plasma PK profiles in healthy subjects after single oral administration of 0.2 mg pitavastatin |
 | [Takehara 2018](#5-references) | Plasma PK profiles in healthy subjects after single oral administration of 0.2 mg pitavastatin|
-| [Lou 2015](#5-references)   | Plasma PK profiles in healthy subjects after single oral administration of 1, 2 and 4 mg pitavastatin |
+| [Luo 2015](#5-references)   | Plasma PK profiles in healthy subjects after single oral administration of 1 mg pitavastatin |
 | [Chen 2013](#5-references)   | Plasma PK profiles in healthy subjects after single oral administration of 4 mg pitavastatin |
 | [Prueksaritanont 2014](#5-references)   | Plasma PK profiles in healthy subjects after single oral administration of 1 mg pitavastatin |
 
