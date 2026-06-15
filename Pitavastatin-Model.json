@@ -2315,7 +2315,7 @@
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "Assumption",
-                "Description": "1/4 of PI activity"
+                "Description": "1/4 of PI actitivity"
               }
             }
           ]
@@ -5818,7 +5818,7 @@
       ]
     },
     {
-      "Name": "Ieiri 2017_2mg_po_SLCO1B1_15_15",
+      "Name": "Ieiri 2007_2mg_po_SLCO1B1_15_15",
       "Model": "4Comp",
       "ObservedData": [
         "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*15*15 subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=3)"
@@ -6049,7 +6049,7 @@
       ]
     },
     {
-      "Name": "Ieiri 2017_2mg_po_SLCO1B1_1b_15",
+      "Name": "Ieiri 2007_2mg_po_SLCO1B1_1b_15",
       "Model": "4Comp",
       "ObservedData": [
         "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*1b*15 subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=8)"
@@ -6275,7 +6275,7 @@
       ]
     },
     {
-      "Name": "Ieiri 2017_2mg_po_SLCO1B1_1b_1b",
+      "Name": "Ieiri 2007_2mg_po_SLCO1B1_1b_1b",
       "Model": "4Comp",
       "ObservedData": [
         "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*1b*1b subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=11)"
