@@ -1,4 +1,4 @@
-{
+﻿{
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
@@ -144,6 +144,15 @@
                 "Simulation": "Lou 2015_1mg_po",
                 "SectionId": 331
             },
+                        {
+                "Project": "Pitavastatin",
+                "Simulation": "Luo 2015_2mg_po",
+                "SectionId": 331
+            },            {
+                "Project": "Pitavastatin",
+                "Simulation": "Luo 2015_4mg_po",
+                "SectionId": 331
+            },
             {
                 "Project": "Pitavastatin",
                 "Simulation": "Mori 2020_0.2mg_po",
@@ -161,17 +170,17 @@
             },
             {
                 "Project": "Pitavastatin",
-                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_15_15",
+                "Simulation": "Ieiri 2007_2mg_po_SLCO1B1_15_15",
                 "SectionId": 332
             },
             {
                 "Project": "Pitavastatin",
-                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_1b_15",
+                "Simulation": "Ieiri 2007_2mg_po_SLCO1B1_1b_15",
                 "SectionId": 332
             },
             {
                 "Project": "Pitavastatin",
-                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_1b_1b",
+                "Simulation": "Ieiri 2007_2mg_po_SLCO1B1_1b_1b",
                 "SectionId": 332
             }
         ],
@@ -187,7 +196,7 @@
                 "PlotTypes": [
                     "predictedVsObserved",
                     "residualsOverTime"
-                ],
+                ],      
                 "Groups": [
                     {
                         "Caption": "Pitavastatin iv (model building)",
@@ -233,6 +242,18 @@
                                 "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Lou et al. 2015 - Pitavastatin 1mg - Pitavastatin - PO - 1 mg - Plasma - agg. (n=12)",
                                 "Color": "#000000"
+                            },                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Luo 2015_2mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Lou et al. 2015 - Pitavastatin 2mg - Pitavastatin - PO - 2 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },                            {
+                                "Project": "Pitavastatin",
+                                "Simulation": "Luo 2015_4mg_po",
+                                "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Lou et al. 2015 - Pitavastatin 4mg - Pitavastatin - PO - 4 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
                             },
                             {
                                 "Project": "Pitavastatin",
@@ -263,21 +284,21 @@
                         "OutputMappings": [
                             {
                                 "Project": "Pitavastatin",
-                                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_15_15",
+                                "Simulation": "Ieiri 2007_2mg_po_SLCO1B1_15_15",
                                 "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*15*15 subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=3)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Pitavastatin",
-                                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_1b_15",
+                                "Simulation": "Ieiri 2007_2mg_po_SLCO1B1_1b_15",
                                 "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*1b*15 subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=8)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Pitavastatin",
-                                "Simulation": "Ieiri 2017_2mg_po_SLCO1B1_1b_1b",
+                                "Simulation": "Ieiri 2007_2mg_po_SLCO1B1_1b_1b",
                                 "Output": "Organism|PeripheralVenousBlood|Pitavastatin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Ieiri et al. 2007 - Pitavastatin 2mg in SLCO1B1*1b*1b subjects - Pitavastatin - PO - 2 mg - Plasma - agg. (n=11)",
                                 "Color": "#000000"
